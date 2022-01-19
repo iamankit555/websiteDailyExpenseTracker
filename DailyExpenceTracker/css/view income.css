@@ -1,0 +1,264 @@
+body{
+    font-family: 15px/1.5 sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*global*/
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.register
+{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tab
+{
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header
+{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 1px solid;
+}
+
+header a
+{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+ul{
+    padding:0;
+    margin:0;
+    
+}
+header li
+{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;  
+}
+
+header #branding
+{
+   float: left;
+  
+}
+header #branding h1
+{
+    margin: 0;
+}
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight,header .current 
+{
+    color:#e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#showcase
+{
+    min-height: 400px;
+    background-image:url('../img/3.jpg') ;
+    text-align: center;
+    color: black;
+    
+}
+#showcase h1
+{
+    margin-top: 100px;
+    font-size: 53px;
+    margin-bottom: 20px;
+}
+#showcase p
+{
+    font-size: 20px;
+}
+#newsletter
+{
+   padding: 15px; 
+    color: white;
+    background:#35424a;
+    border-bottom: #e8491d 2px solid;
+}
+#newsletter h1
+{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 18px;
+    
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    text-transform: uppercase;
+    height: 25px;
+    width: 250px;
+    
+   
+}
+.buttonone
+{
+    height: 35px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20;
+    padding-right: 20;
+    color: #ffffff;
+    width: 100px;
+   
+}
+#boxes
+{
+    margin-top: 40px;
+}
+#boxes .box
+{
+   float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 0 10 0 10px;
+    
+}
+#boxes .box img
+{
+    width: 120px;
+
+}
+
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e8481d;
+    text-align: center;
+}
+
+
+/*login*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #35424a;
+  } 
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(221, 221, 221);
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  button {
+    background-color: rgb(175, 76, 106);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #d836f4;
+  }
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  .container1 {
+    padding: 16px;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /*menu*/
+  header1
+{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 1px solid;
+}
+/*view income*/
+
+
+ /*
+ 
+ */
+ 
+ 
+ 
+ 
+#table1{font-family:cursive;
+    
+    border-collapse: collapse;   
+      
+ color: white;
+ text-align: center;
+ border-color: black;
+ margin:10px;
+        width:1000px
+         
+ }
+#table1,th,td{border: 1px solid black; }
+ 
+ 
+ 
+ 
+ #table1 th{background-color: #35424a;
+ 
+ height: 20px;
+  line-height:35px; }
+ #table1 td{ line-height: 30px;}
+ #table1 tr:nth-child(odd){background-color: mediumvioletred;}
+ 
+ 
+ 
+#table1 tr:nth-child(even){background-color: deepskyblue;}
+ 
+ 
+ 
+ 
+#table1 td:hover{background-color: black;}
+ 
+ 
+ 
+#table 1th:hover{background-color: red;}
